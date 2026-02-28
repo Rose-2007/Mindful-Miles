@@ -50,6 +50,5 @@ Future Features:
 
    Mindful Miles is more than a travel app — it’s a journey for your mind, blending AI, emotional intelligence, and immersive experiences. With personalized recommendations, mood-based planning, and relaxing music, it redefines travel planning by focusing on mental wellness and mindfulness, not just destinations.
 Travel isn’t just about maps — it’s about how the world makes you feel. Mindful Miles helps you explore, relax, and rejuvenate, one mood at a time.
-AI Integration: Mock API → Hugging Face API
 
 UX Features: Background music, interactive UI
