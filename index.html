@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mindful Miles - Travel for Your Mind</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Mindful Miles</h1>
+    <p>Travel for your mind, not just your map</p>
+    <div class="slider">
+     <div class="slides">
+      <img src="photo/beach.jpeg">
+      <img src="photo/mountain.jpeg">
+      <img src="photo/waterfall.jpeg">
+      <img src="photo/fort.jpeg">
+      <img src="photo/city.jpeg">
+     </div>
+
+     <!-- Arrows -->
+     <button class="prev">&#10094;</button>
+     <button class="next">&#10095;</button>
+
+     <!-- Dots -->
+     <div class="dots"></div>
+    </div>
+  </header>
+
+  <!-- Travel Form -->
+  <form id="travelForm">
+    <label>Mood:</label>
+    <select id="mood">
+      <option>Overwhelmed</option>
+      <option>Excited</option>
+      <option>Stuck</option>
+    </select>
+
+    <label>Energy Level:</label>
+    <input type="radio" name="energy" value="Low" checked> Low
+    <input type="radio" name="energy" value="High"> High
+
+    <label>Travel Type:</label>
+    <select id="travelType">
+      <option>Solo</option>
+      <option>Group</option>
+    </select>
+
+    <button type="submit">Generate Plan</button>
+  </form>
+
+  <!-- Result Display -->
+  <div id="result"></div>
+  <!-- Background Mood Music -->
+  <audio id="bgMusic" loop preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
