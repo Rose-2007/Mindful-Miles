@@ -197,4 +197,5 @@ async function playMoodMusic(mood) {
 document.getElementById("mood").addEventListener("change", function () {
   const selectedMood = this.value.toLowerCase();
   playMoodMusic(selectedMood);
+
 });
